@@ -173,3 +173,13 @@ iva = tnp*0.12
 total = tnp+iva
 print(f'El monto a pagar es de : ${total}')
 
+"""
+Un Hotel 5 Estrellas de Santa Marta tiene una promoción para sus
+clientes. Cobra por una habitación $100.000 el primer día y por el
+resto $200.000 por día. Realice un algoritmo que determine el valor
+total a pagar por la habitación si la estadía fue de varios días.
+"""
+
+nd = int(input('Digite el numero de dias : '))
+total=nd*200000-100000
+print(f'El total a pagar es de : ${total}')
