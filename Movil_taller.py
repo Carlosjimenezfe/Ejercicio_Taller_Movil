@@ -160,3 +160,16 @@ np = int(input('Digite el numero de peliculas :'))
 nd = int(input('Digite el numero de dias :'))
 total = np*nd*1500
 print(f'El monto a pagar es de :${total}')
+
+"""
+Una Agencia de viajes cobra por un Tour a Cartagena $25.000
+diarios por persona. Realice un algoritmo que determine el monto a
+pagar por una familia que desee realizar dicho Tour sabiendo que
+también cobran el 12% de IVA.
+"""
+np = int(input('Digite el numero de personas : '))
+tnp = np*25000
+iva = tnp*0.12
+total = tnp+iva
+print(f'El monto a pagar es de : ${total}')
+
