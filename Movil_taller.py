@@ -112,7 +112,16 @@ total = pnh-d
 print(f'El descuento es de : ${d}')
 print(f'El total a pagar es de : ${total}')
 
-
+"""
+9. Un centro de comunicaciones alquilan tarjetas para realizar llamadas
+y cobran el monto consumido de la tarjeta mas un recargo del 20%.
+Teniendo como dato de entrada el monto inicial y el monto final de la
+tarjeta, determine el costo de la llamada
+"""
+mi = float (input('Digite el monto inicial : $'))
+mf = float (input('Digite el monto final : $'))
+cll=(mi-mf)/0.20
+print(f'El monto a pagar es de : ${cll}')
 
       
  
