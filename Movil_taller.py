@@ -123,8 +123,17 @@ mf = float (input('Digite el monto final : $'))
 cll=(mi-mf)/0.20
 print(f'El monto a pagar es de : ${cll}')
 
-      
- 
+"""
+En una fototienda cobran por el revelado de un rollo $1.500 por cada
+foto. Realice un algoritmo que determine el monto a pagar por un
+revelado completo sabiendo que adiconalmente le cobran el IVA
+(16%).      
+"""
+nf=int(input('Digite el numero de fotos :')) 
+ccf = nf*1500
+ti = ccf*0.16
+total = ccf + ti
+print(f'El monto a pagar es de : ${total}')
 
 
 
