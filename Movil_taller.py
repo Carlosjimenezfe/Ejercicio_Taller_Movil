@@ -51,6 +51,28 @@ i = float (s * 0.015)
 t = s + i
 print(f'El saldo final es de: {t} ')
 
+"""
+5. Una empresa le hace los siguientes descuentos sobre el sueldo base
+a sus trabajadores: 1% por ley de politica pública, 4% por seguro
+social, 0.5% por seguro forzoso y 5% por caja de ahorro. Realice un algoritmo que determine el monto de cada descuento y el monto total
+a pagar al trabajador
+"""
+base = float(input('Digite el salario base : $'))
+pp = float (base * 0.01)
+ss = float (base * 0.04)
+sf = float (base * 0.005)
+ca = float (base * 0.05)
+ 
+Total = pp + ss + sf + ca
+st=base-Total
+print(f'El descuento por politica publica es de : ${pp}')
+print(f'El descuento por seguro socail es de : ${ss}')
+print(f'El descuento por seguro forzoso es de : ${sf}')
+print(f'El descuento por caja de ahorro es de : ${ca}')
+
+print(f'El monto total a pagar es de : ${st}')
+
+
       
  
 
