@@ -99,6 +99,18 @@ nn = int(input('Digite el numero de años laborando :'))
 total = nn*120000
 print(f'El monto del bono a pasar del trabajador es de : ${total}')
 
+"""
+8. Una Universidad le paga a sus profesores $20.000 la hora y le hace
+un descuento del 5% por concepto de caja de ahorro. Determine el
+monto del descuento y el monto total a pagar al profesor.
+"""
+
+nh = int(input("Digite la cantidad de horas :"))
+pnh = nh*20000
+d = pnh*0.05
+total = pnh-d
+print(f'El descuento es de : ${d}')
+print(f'El total a pagar es de : ${total}')
 
 
 
