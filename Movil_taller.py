@@ -89,6 +89,15 @@ cnc= float (nc*25000)
 suma = ccp + ctc + cnc
 print(f' El monto a pagar por un aviso clasificado es de: {suma}')
 
+"""
+7. Una empresa paga a sus empleados un bono por antigüedad que
+consiste en $100.000 por el primer año laboral y $120.000 por cada
+año siguiente. Realice un algoritmo que determine el monto del bono
+a pagar a un trabajador que tiene varios años en la empresa.
+"""
+nn = int(input('Digite el numero de años laborando :'))
+total = nn*120000
+print(f'El monto del bono a pasar del trabajador es de : ${total}')
 
 
 
