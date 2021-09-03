@@ -136,6 +136,18 @@ total = ccf + ti
 print(f'El monto a pagar es de : ${total}')
 
 
+"""
+En un hospital existen tres áreas: Ginecología, Pediatría y
+Traumatología. El presupuesto anual del hospital se reparte
+conforme a la siguiente tabla:
+"""
+pa = float (input('Digite el presupuesto anual : $'))
+g = pa*0.40
+t = pa*0.30
+p = pa*30
+print(f'La cantidad de dinero que recibe el area de gincelogia es de : ${g}')
+print(f'La cantidad de dinero que recibe el area de traumatologia es de : ${t}')
+print(f'La cantidad de dinero que recibe el area de pediatria es de : ${p}')
 
 
 
