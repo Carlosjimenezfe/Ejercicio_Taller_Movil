@@ -41,6 +41,16 @@ print(f'EL porcentaje del primer inversor es de {p1} %')
 print(f'EL porcentaje del primer inversor es de {p2} %')
 print(f'EL porcentaje del primer inversor es de {p3} %')
 
+"""
+4. Un banco da a sus ahorradores un interes de 1.5% sobre el monto
+ahorrado. Teniendo como dato de entrada el saldo inicial del
+ahorrador determine el saldo final.
+"""
+s = float(input('Digite el saldo inicial :'))
+i = float (s * 0.015)
+t = s + i
+print(f'El saldo final es de: {t} ')
+
       
  
 
